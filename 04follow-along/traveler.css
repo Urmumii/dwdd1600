@@ -1,120 +1,56 @@
-body {
-    font-family: "greycliff-cf", sans-serif;
-    margin: 0;
-}
-
-    /* header stuff here */
-    header {
-        background-color: #585936;
-        padding: 1rem 10px;
-    }
-    header span {
-        color: #585936;
-        font-size: 1.6rem;
-        font-weight: 700;}
-
-
-    /* navigation stuff here */
-    nav {
-        background-color: #736355;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0 10px;
-        list-style-type: none;
-        display: flex;
-    }
-
-    nav a {
-        display: block;
-        padding: .83rem 1rem;
-        text-decoration: none;
-        font-size: 1.1rem;
-        color: #F2F2F2;
-        font-weight: 700;}
-
-    nav li.active a {
-        background-color: #F2F2F2;
-        color: #585936;
-    }
-
-    nav li a:hover {
-        color: #0D0D0D;
-    }
-
-
-    /* main stuff here */
-    main{
-        padding: 1rem 10px;
-    }
-
-    main h1 {
-        color: #736355;
-    }
-    main h2 {
-        color: #585936;
-        margin-bottom: .2rem;
-    }
-    main p {
-        margin: 0;
-        color: #F2F2F2;
-    }
-    main ol {
-        padding: .5rem 30px;
-        background-color: #efefef;
-    }
-
-    main dl dt {
-        color:#736355;
-        font-weight: 700;
-        margin-top: 1rem;
-    }
-    main dl dd {
-        color: #585936;
-        font-size: .9rem;
-        margin-left: 20px;
-    }
-    main ul {
-        list-style-type: circle;
-    }
-    main ul li {
-        line-height: 125%;
-        margin-bottom: .5rem;
-        font-size: .9rem;
-    }
-    main strong {
-        font-weight: 700;
-        color: #0D0D0D;
-    }
-    main em {
-        font-weight: 300;
-        color: #585936;
-    }
-    main address {
-        font-style: normal;
-        background-color: #BFB0B6;
-        padding: .5rem;
-        border-radius: 10px;
-        border: 1px solid #736355;
-        width: 200px;
-    }
-    main a {
-        color: #736355;
-    }
-    main a:hover {
-        color: rgb(88, 89, 54);
-    }
-
-
-    /* footer stuff here */
-    footer {
-        background-color: #BFB0B6;
-        text-align: center;
-        padding: 1rem 0;
-    }
-    footer p {
-        margin: 0;
-        font-size: .8rem;
-        color: #BFB0B6;
-        letter-spacing: 3px;
-    }
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Torpid Travelers products help you get around.">
+    <meta name="author" content="Paul Cheney">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/kpq0cge.css">
+    <link rel="stylesheet" href="traveler.css">
+    <title>Torpid Travelers: Products</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Torpid Travelers</span>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Powering our Machines</a></li>
+            <li class="active"><a href="products.html">Products</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Products</h1>
+        <p>We help people everywhere to commute across their cities, campuses, and communities in ways that were never before possible and we love it.</p>
+        
+        <h2>Electric Skateboards</h2>
+        <p>An electric skateboard is a personal transporter based on a <a href="https://www.skatewarehouse.com/decks.html" target="_blank" rel="nofollow">skateboard</a>. The speed is usually controlled by a wireless hand-held throttle remote or rider body weight-shifting between front of the board for forward motion and rear for braking. The sideways direction of travel is adjusted by tilting the board to one side or the other. Electric skateboards are not considered as vehicles and do not require registration or licensing.</p>
+        
+        <h2>Electric Scooters</h2>
+        <p>A motorized scooter is a powered stand-up scooter using a small electric motor. These scooters are generally designed with a large deck in the center on which the rider stands.</p>
+        
+        <h2>Electric Bikes</h2>
+        <p>An electric bicycle also known as an e-bike is a bicycle with an electric motor which can be used to assist the rider. Many kinds of e-bikes are available worldwide. All retain the ability to be pedaled by the rider and are therefore not electric motorcycles.</p>
+        
+        
+        <h2>Contact Us</h2>
+        <address>
+            Torpid Travelers<br>
+            12345 South Road<br>
+            Lexington, VA 24450<br>
+            Phone: <a href="tel:9815551234">981-555-1234</a>
+        </address>
+        
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 202X Torpid Traveler &bull; Your Name &bull; Web Essentials</p>
+    </footer>
+</body>
+</html>
