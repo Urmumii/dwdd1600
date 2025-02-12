@@ -30,12 +30,12 @@ body {
         padding: .83rem 1rem;
         text-decoration: none;
         font-size: 1.1rem;
-        color: #0D0D0D;
+        color: #BFB0B6;
         font-weight: 700;}
 
     nav li.active a {
         background-color: #736355;
-        color: #BFB0B6;
+        color: #0D0D0D;
     }
 
     nav li a:hover {
