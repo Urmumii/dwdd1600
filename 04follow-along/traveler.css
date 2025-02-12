@@ -34,8 +34,8 @@ body {
         font-weight: 700;}
 
     nav li.active a {
-        background-color: #F2F2F2;
-        color: #585936;
+        background-color: #736355;
+        color: #BFB0B6;
     }
 
     nav li a:hover {
