@@ -4,9 +4,9 @@ body {
     margin: 0;
     font-size: 16px;
 }
+
 /* header stuff here */
 header {
-    font-family: 'greycliff-cf', sans-serif; 
     padding: 1rem 2vw;
 }
 header h1 {
@@ -15,7 +15,6 @@ header h1 {
     font-size: 2.5rem;
 }
 header p {
-    font-family: 'greycliff-cf', sans-serif;
     margin: 0;
     color: #585936;
     font-size: 1.22rem;
@@ -47,14 +46,11 @@ nav a:hover {
     background-color: #0D0D0D;
 }
 
-
 /* main stuff here */
 main {
     padding: 1rem 2vw;
 }
-
 main h1 {
-    font-family: 'greycliff-cf', sans-serif;
     color: #736355;
     font-size: 2.5rem;
     margin: .5rem 0 .8rem 0;
@@ -99,11 +95,12 @@ main a:hover {
     background-color: rgb(88,89,54);
 }
 
+/* figure wrapped */
 figure.wrapped {
-
-width: 30%;
-margin: 0 0 0 2%;
-float: right;
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    clear: both; /* Clear the float to avoid layout issues */
 }
 figure.wrapped img {
     width: 100%;
@@ -114,20 +111,16 @@ figure.wrapped figcaption {
     font-size: .75rem;
 }
 
+/* gallery */
 div.gallery {
     display: flex;
     flex-wrap: wrap;
-}
-
-div.gallery {
     margin: .5rem 2% 0 0;
-}
-
-div.gallery {
     text-align: center;
     font-size: .8rem;
     color: #b64e11;
 }
+
 /* footer stuff here */
 footer {
     border-top: solid #BFB0B6 2px;
