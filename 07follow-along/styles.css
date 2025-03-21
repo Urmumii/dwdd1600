@@ -1,114 +1,68 @@
-body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    margin: 0;
-    font-size: 16px;
-}
-/* header stuff here */
-header {
-    padding: 1rem 2vw;
-}
-header h1 {
-    margin: 0;
-    color: #895772;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-header p {
-    margin: 0;
-    color: #895772;
-    font-size: 1.22rem;
-    letter-spacing: 2px;
-}
-
-/* navigation stuff here */
-nav {
-    border-top: solid 1px #E0E6E6;
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Angelo's Bake Shoppe."/>
     
-}
-nav ul {
-    margin: 0;
-    padding: 0 2vw;
-    list-style-type: none;
-    display: flex;
-}
-nav a {
-    display: block;
-    padding: 1.2rem 1rem .3rem 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #8C501B;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: solid 2px #fff;
-}
-
-nav .active a {
-    border-bottom: solid 2px #8b5022;
-}
-nav a:hover {
-    color: #000;
-}
-
-
-/* main stuff here */
-main {
-    padding: 1rem 2vw;
-}
-
-main h1 {
-    color: #8b5022;
-    font-size: 2.5rem;
-    margin: .5rem 0 .8rem 0;
-    font-weight: 200;
-}
-main h2 {
-    color: #8b5022;
-    margin-bottom: .2rem;
-}
-main p {
-    color: #333;
-    margin: 0 0 .8rem 0;
-    line-height: 150%;
-    font-size: 1.2rem;
-}
-main a {
-    color: #9c3335;
-}
-
-.angeloGallery {
-    display: flex;
-    flex-wrap: wrap;
-} 
-.angeloGallery section {
-    flex-basis: 50%;
-    margin: 1rem 0;
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-}
-.angeloGallery span {
-    display: block;
-    text-align: center; 
-    font-weight: 700;
-    color: #895772;
-}
-.angeloGallery img {
-    width: 98%;
-    height: auto;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
 
-
-
-
-/* footer stuff here */
-footer {
-    border-top: solid #895772 1px;
-    text-align: center;
-    color: #8b5022;
-    font-size: .8rem;
-    padding: 1rem 0;
-    clear: both;
-}
-footer a {
-    color: #8b5022;
-}
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <meta charset="UTF-8">
+    <title>Angelo’s Bake Shop</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/logo.png" alt="site logo" width="100" height="58">
+        <div>
+            <h1>Angelo’s</h1>
+            <p>The Bake Shop</p>
+        </div>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Box Bake Craft</a></li>
+            <li><a href="pies.html">Pie Gallery</a></li>
+            <li class="active"><a href="rolls.html">Sweet Roll Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Pie Gallery</h1>
+      <div class="angeloGallery">
+        <section>
+            <img src="images/roll_apple.jpg" alt="Apple Roll" width="600" height="400">
+            <span>Apple Roll</span>
+        </section>
+          
+        <section>
+            <img src="images/roll_cinamon.jpg" alt="Cinamon Roll" width="600" height="400">
+            <span>Cinamon Pie</span>
+        </section>
+          
+          <section>
+            <img src="images/roll_orange.jpg" alt="Orange Roll" width="600" height="400">
+            <span>Orange Roll</span>
+        </section>
+          <section>
+            <img src="images/roll_poppy.jpg" alt="Poppy Sweet Roll" width="600" height="400">
+            <span>Poppy Sweet Roll</span>
+        </section>
+        </div>
+        
+        
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; Angelo’s Bake Shop &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
