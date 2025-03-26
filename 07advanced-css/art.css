@@ -1,0 +1,184 @@
+/* prevent problems with different browsers */
+* {box-sizing: border-box;}
+
+
+body {
+    font-family:  'greycliff-cf', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+
+    header {
+        padding: 1rem 2vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    header div {
+        padding-left: 2vw;
+    }
+    header h1 {
+            margin: 0;
+            color: #736355;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        header p {
+            margin: 0;
+            color: #736355;
+            font-size: 1.22rem;
+            letter-spacing: 2px;
+    }
+    
+    /* navigation stuff here */
+    
+    /* small screen format */
+    
+    @media only screen and (max-width: 600px) {
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0 2vw;
+        }
+    
+        nav a {
+            text-decoration: none;
+            display: block;
+            padding: .8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 1px solid #736355;
+            color: #585936
+        }
+    
+        nav .active a {
+            background-color: #736355;
+            background-image: linear-gradient(to bottom, #736355, #504439);
+            color: white;
+        }
+    }/* end to meida query */
+    
+        /* large screen format */
+        @media only screen and (min-width: 601px) {
+            nav {
+                border-top: solid 1px white;
+                
+            }
+            nav ul {
+                margin: 0;
+                padding: 0 2vw;
+                list-style-type: none;
+                display: flex;
+            }
+            nav a {
+                display: block;
+                padding: 1.2rem 1rem .3rem 1rem;
+                font-size: 1rem;
+                text-decoration: none;
+                color: #736355;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-align: center;
+                border-bottom: solid 2px #BFB0B6;
+            }
+            
+            nav .active a {
+                border-bottom: solid 2px #736355;
+            }
+            nav a:hover {
+                color: #000;
+            }
+
+        }
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #736355;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+    font-weight: 200;
+}
+main h2 {
+    color: #BFB0B6;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #0d0d0d;
+    margin: 0 0 .8rem 0;
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+main a {
+    color: #BFB0B6;
+}
+
+.gallery img {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+}
+.gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #736355;
+}
+.gallery img {
+    width: 98%;
+    height: auto;
+}
+
+
+.gallery img:hover{
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+
+.wrapimage {
+    width: 100%;
+    margin: 0;
+}
+
+.wrapimage img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+}
+
+
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #736355 1px;
+    text-align: center;
+    color: #504439;
+    font-size: .8rem;
+    padding: 1rem 0;
+    clear: both;
+}
+footer a {
+    color: #504439;
+}
+
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto; 
+}
