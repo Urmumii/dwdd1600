@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="A Digital Gallery of my Artworks.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.typekit.net/kpq0cge.css" rel="stylesheet">
+    <link rel="stylesheet" href="art.css">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Michelles Portfolio</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+       <img src="images/paint-logo.png" alt="site logo" width="100" height="131">
+        <div>
+        <h1>Michelles Portfolio</h1>
+        <p>My Background in Art</p>
+    </div>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">My Background</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="artist-statement.html">Artist Statement</a></li>
+             <li class="active"><a href="print.html">Prints</a></li>
+             <li><a href="art.html">My Artwork</a></li>
+    </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Purchase Prints</h1>
+        <P>purchase a mystery Art print</P>
+        <form method="get" class="myform" action="thanks.html"> 
+        <fieldset>
+        <legend >Costumer Information</legend>
+           <label>First Name: <input type="text" name="first_name" required></label>
+           <label>Last Name: <input type="text" name="last_name" required></label>
+           <label>Email: <input type="tel" name="Email" required placeholder></label>
+        </fieldset>
+
+        <fieldset>
+            <Legend>Type of Print</Legend>
+            <label><input type="radio" name="method" value="Color">Colored Print</label>
+            <label><input type="radio" name="method" value="Monochrome">Black & White Print</label>
+            <label><input type="radio" name="method" value="Color and Monochrome">Both Colored and Black & White Print</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ammount of Prints</legend>
+            <label><input type="checkbox" name="Print" value="chosen">3 Prints ($7)</label>
+            <label><input type="checkbox" name="print" value="chosen">6 Prints ($14)</label>
+            <label><input type="checkbox" name="print" value="chosen">9 Prints ($21)</label>
+            <label><input type="checkbox" name="print" value="chosen">12 Prints ($28)</label>
+
+            <label>Select Shipping Delivery
+                <select name="time">
+                    <option value="none">Choose mailed time</option>
+                    <option value="Early">In 4 days</option>
+                    <option value="Late">In 1 week</option>
+                    <option value="Far">In 2 weeks</option>
+                    <option value="Instant">Tommorow</option>
+                </select>
+            </label>
+
+        </fieldset>
+
+       <label>Comments:<textarea></textarea></label>
+
+       <input type="submit"  value="Send Delivery Request">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+       <p>&copy;2025 &bull; Michelles Portfolio &bull; <a href="Michellebarron2005@gmail.com">Email Me</a> </p>
+  </footer>
+</body>
+</html>
